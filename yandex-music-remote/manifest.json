@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "delegate.mjs" ],
+      "matches": [ "https://music.yandex.ru/*" ]
+   } ],
+   "description": "A remote control browser extension to control player at music.yandex.ru",
+   "host_permissions": [ "https://music.yandex.ru/" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnT/4z1nEw8x9GHtFOGiobC/+C1nngV8I7cAunjbw3yVMBQq34OX4+hCVVAIWQekfXS9zxhxT9fN3HTQ8k3ku1Kc/1q8cmBa6AAP5iAXo/14Ok4LPITl7YDIxfUQbJtZICsl7NDGtKsUTjxQlcmLf4AywM9T079tLiW9nEmu6RyDjb4VtJHB9efBRlUhTfhDse4NHe1Mkpe0x4KcmP0VypoBd4TQ0SUEce4ybwK2TSA7HYQsZFwUf5zYT7NXixsgrkb5JMZiyCfzohd0PnFk0pbhmnAlicNYxd/8bWFCRjG/flX1CRCd8XHpb99+P3GeRWZ9QbUYc4bOTDfYN878JowIDAQAB",
+   "manifest_version": 3,
+   "name": "Yandex Music Remote Control (OPRA)",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6"
+}
